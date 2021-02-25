@@ -46,7 +46,7 @@ const users = {
             if (result.length === 0) {
               return helper.responseError(res, null, 401, { error: 'Email has not been registered' })     
             }
-            if (parseInt(user.emailVerification) === 0) {
+            if (parseInt(user.emailVerification) === null) {
               return helper.responseError(res, null, 401, { error: 'Email has not been verified' })
             }
     
