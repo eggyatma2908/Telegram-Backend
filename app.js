@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-const server = require('https').createServer(app)
+const server = require('http').createServer(app)
 const PORT = process.env.PORT
 const cors = require('cors')
 const morgan = require('morgan')
