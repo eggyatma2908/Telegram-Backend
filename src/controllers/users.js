@@ -31,6 +31,9 @@ const users = {
                   .then(() => {
                     return helper.responseOk(res, { message: 'Register successfuly' }, 200, null)
                   })
+                  .catch((err) => {
+                    console.log(err)
+                  })
               })
             })
           })
