@@ -31,7 +31,7 @@
 ```npm install```
 3. Make new file a called **.env**, set up first [here](#set-up-env-file)
 4. Turn on Apache and MYSQL Server using xampp, etc.
-5. Create a database with the name **coffeeshop** then  import file **coffeeshop.sql** in directory root/database to [phpmyadmin](http://localhost/phpmyadmin)
+5. Create a database with the name **telegram** then  import file **telegram.sql** in directory root/database to [phpmyadmin](http://localhost/phpmyadmin)
 6. Open Postman desktop application or Chrome web app extension that has installed before
 7. Choose HTTP Method and enter request url.
 8. You can see all the end point in postman collection [here](#rest-api)
