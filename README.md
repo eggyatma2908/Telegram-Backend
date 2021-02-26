@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/eggyatma2908/Telegram-Backend">
-    <img src="./screenshots/coffee-logo.png"  width="100px" alt="Logo" width="80">
+    <img src="./Logo/logo.png"  width="200px" alt="Logo" width="80">
   </a>
 <h1 align="center">Telegram</h1>
   <p align="center">
