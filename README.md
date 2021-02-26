@@ -70,3 +70,5 @@ Contributions are what make the open source community such an amazing place to b
 * [`Telegram Frontend`](https://github.com/eggyatma2908/Telegram-Frontend)
 
 ## Contact
+Email : eggyatmariansyah@gmail.com <br>
+LinkedIn : https://www.linkedin.com/in/eggyatmariansyah/
