@@ -10,9 +10,9 @@
   <br/>
     <a href="https://telegram-id.netlify.app">View Demo</a>
     ·
-    <a href="https://github.com/eggyatma2908/Telegram-Backend">Report Bug</a>
+    <a href="https://github.com/eggyatma2908/Telegram-Backend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/eggyatma2908/Telegram-Backend">Request Feature</a>
+    <a href="https://github.com/eggyatma2908/Telegram-Backend/issues">Request Feature</a>
   </p>
   
 ## Built With
