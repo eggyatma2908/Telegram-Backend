@@ -2,7 +2,7 @@
   <a href="https://github.com/eggyatma2908/Telegram-Backend">
     <img src="./screenshots/coffee-logo.png"  width="100px" alt="Logo" width="80">
   </a>
-<h1 align="center">CoffeeShop</h1>
+<h1 align="center">Telegram</h1>
   <p align="center">
    CoffeeShop-Backend for Zwallet application. Built with NodeJs using the ExpressJs Framework.
       Express.js is a web application framework for Node.js.
