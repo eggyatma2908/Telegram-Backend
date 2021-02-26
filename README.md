@@ -4,7 +4,7 @@
   </a>
 <h1 align="center">Telegram</h1>
   <p align="center">
-   CoffeeShop-Backend for Zwallet application. Built with NodeJs using the ExpressJs Framework.
+   Telegram. Built with NodeJs using the ExpressJs Framework.
       Express.js is a web application framework for Node.js.
     <br />
   <br/>
@@ -22,7 +22,7 @@
 ## Requirements
 * [Node.js](https://nodejs.org/en/)
 * [Postman](https://www.getpostman.com/)
-* [Database](coffeeshop.sql)
+* [Database](telegram.sql)
 
 
 ## How to run the app ?
