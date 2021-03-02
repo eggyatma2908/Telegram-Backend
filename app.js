@@ -55,6 +55,7 @@ io.on ('connection', (socket) => {
       io.to('user' + data.receiverId).emit('receiverMessage', data)
     })
     .catch(err => {
+      console.log(dataMessage)
       console.log(err)
     })
   })
