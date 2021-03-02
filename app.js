@@ -45,7 +45,7 @@ io.on ('connection', (socket) => {
       message: data.message,
       senderId: data.senderId,
       receiverId: data.receiverId,
-      time: data.time,
+      time: new Date(),
       profileSender: data.profileSender
     }
     cb(dataSender)
