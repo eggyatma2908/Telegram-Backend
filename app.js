@@ -51,11 +51,9 @@ io.on ('connection', (socket) => {
     cb(dataSender)
     messageModel.insertDataMessage(dataMessage)
     .then(res => {
-      console.log(dataMessage)
       io.to('user' + data.receiverId).emit('receiverMessage', data)
     })
     .catch(err => {
-      console.log(dataMessage)
       console.log(err)
     })
   })
