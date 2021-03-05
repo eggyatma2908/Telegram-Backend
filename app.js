@@ -39,18 +39,17 @@ io.on ('connection', (socket) => {
       message: data.message,
       senderId: data.senderId,
       receiverId: data.receiverId,
-      time: data.time
+      time: new Date()
     }
     const dataSender = {
       message: data.message,
       senderId: data.senderId,
       receiverId: data.receiverId,
-      time: data.time,
+      time: new Date(),
       profileSender: data.profileSender
     }
     cb(dataSender)
     messageModel.insertDataMessage(dataMessage)
-    console.log(dataMessage)
     .then(res => {
       console.log(res, 'APAKAH DISINI')
       io.to('user' + data.receiverId).emit('receiverMessage', data)
