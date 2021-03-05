@@ -9,7 +9,6 @@ const messages = {
         ORDER BY time ASC`)
     },
     insertDataMessage: (data) => {
-        console.log(data)
         return actionQuery('INSERT INTO messages SET ?', data)
     },
 }

@@ -37,6 +37,7 @@ const messages = {
             helper.responseOk(res, resultMessage, 200, null)
           })
           .catch((err) => {
+            console.log(err, 'APAKAH DISINI')
             return helper.responseError(res, null, 500, { message: 'Internal server error' })
           })
       }

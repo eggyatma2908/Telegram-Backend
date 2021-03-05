@@ -51,10 +51,11 @@ io.on ('connection', (socket) => {
     cb(dataSender)
     messageModel.insertDataMessage(dataMessage)
     .then(res => {
+      console.log(res, 'APAKAH DISINI')
       io.to('user' + data.receiverId).emit('receiverMessage', data)
     })
     .catch(err => {
-      console.log(err)
+      console.log(err, 'APAKAH DISINI')
     })
   })
   
