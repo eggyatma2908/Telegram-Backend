@@ -22,7 +22,8 @@ const messages = {
           id,
           senderId, 
           receiverId,
-          message
+          message,
+          time: new Date()
         }
         modelMessage.insertDataMessage(data)
           .then(result => {
