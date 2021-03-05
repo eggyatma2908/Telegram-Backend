@@ -50,6 +50,7 @@ io.on ('connection', (socket) => {
     }
     cb(dataSender)
     messageModel.insertDataMessage(dataMessage)
+    console.log(dataMessage)
     .then(res => {
       console.log(res, 'APAKAH DISINI')
       io.to('user' + data.receiverId).emit('receiverMessage', data)
