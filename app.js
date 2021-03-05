@@ -39,14 +39,12 @@ io.on ('connection', (socket) => {
       message: data.message,
       senderId: data.senderId,
       receiverId: data.receiverId,
-      time: data.time,
       createdAt: new Date()
     }
     const dataSender = {
       message: data.message,
       senderId: data.senderId,
       receiverId: data.receiverId,
-      time: data.time,
       createdAt: new Date(),
       profileSender: data.profileSender
     }
